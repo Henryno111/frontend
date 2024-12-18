@@ -6,7 +6,7 @@ import {
   stringAsciiCV,
   PostConditionMode
 } from '@stacks/transactions';
-import { network } from '../config/stacksConfig';
+import { NETWORK } from '../config/stacksConfig';
 import { CONTRACT_ADDRESS, CONTRACT_NAME } from '../config/constants';
 import { useStacksAuth } from '../context/StackAuthContext';
 

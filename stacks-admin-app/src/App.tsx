@@ -6,10 +6,10 @@ import AdminActions from './pages/AdminActions';
 import UserManagement from './pages/UserManagement';
 import Footer from './components/Footer';
 import { Connect } from '@stacks/connect-react';
-import { APP_NAME, APP_ICON } from './config/constants';
+// import { APP_NAME, APP_ICON } from './config/constants';
 import { UserSession, AppConfig } from '@stacks/connect';
 import { StacksAuthProvider } from './context/StackAuthContext';
-import { useStacksAuth } from './context/StackAuthContext';
+// import { useStacksAuth } from './context/StackAuthContext';
 const appConfig = new AppConfig();
 const userSession = new UserSession({ appConfig });
 
